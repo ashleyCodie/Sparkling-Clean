@@ -20,9 +20,9 @@ const App = () => {
     <div>
 
        {/* <!-- Navbar on smaller screens--> */}
-      {!showNav && <button onClick={() => { setShowNav(true) }} className="w3-button  w3-display-topleft w3-hover-white w3-hide-large" style={{ width: "100%", fontsize: "32px", color: "white", zIndex: "100" }}><b><i>☰ Open Menu</i></b></button>}
+      {!showNav && <button onClick={() => { setShowNav(true) }} className="w3-button  w3-display-topleft w3-hover-white w3-hide-large" style={{ width: "100%", fontSize: "32px", color: "white", zIndex: "100" }}><b><i>☰ Open Menu</i></b></button>}
 
-      {showNav && <div className="w3-sidebar w3-purple w3-top w3-large w3-padding w3-hide-large" style={{ zindex: "100000", width: "300px", fontweight: "bold", position: "absolute"}} id="mySidebar"><br />
+      {showNav && <div className="w3-sidebar w3-purple w3-top w3-large w3-padding w3-hide-large" style={{ zIndex: "100000", width: "300px", fontWeight: "bold", position: "absolute"}} id="mySidebar"><br />
         <a onClick={() => setShowNav(false)} className="w3-button w3-hide-large w3-display-topleft" style={{ width: "100%" }}><b><i>Close Menu</i></b></a>
         <div className="w3-container">
           <h3 className="w3-padding-64"><b><i>Sparkling<br />Clean</i></b></h3>
@@ -41,12 +41,12 @@ const App = () => {
       <div className="w3-overlay w3-hide-large" style={{ cursor: "pointer" }} title="close side menu" id="myOverlay"></div>
 
       {/* <!-- !PAGE CONTENT! --> */}
-      <div className="w3-main" style={{ marginleft: "340px", marginright: "40px" }}>
+      <div className="w3-main" style={{ marginLeft: "340px", marginRight: "40px" }}>
       </div>
 
       <div className="main">
         <div className="w3-display-container">
-          <img className="image" src={glitter} style={{ width: "100%", height: "2%", marginbottom: "60px" }} alt="glitter" />
+          <img className="image" src={glitter} style={{ width: "100%", height: "2%", marginBottom: "60px" }} alt="glitter" />
           <div>
           </div>
           <h1 className="w3-display-topmiddle w3-container w3-text-white glow w3-hide-small w3-hide-medium"><b><i><i className="bi bi-stars"></i>Sparkling Clean<i className="bi bi-stars"></i></i></b></h1>
@@ -77,3 +77,5 @@ const App = () => {
   )
 }
 export default App;
+
+
