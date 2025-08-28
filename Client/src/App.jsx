@@ -51,7 +51,7 @@ const App = () => {
           </div>
           <h1 className="w3-display-topmiddle w3-container w3-text-white glow w3-hide-small w3-hide-medium"><b><i><i className="bi bi-stars"></i>Sparkling Clean<i className="bi bi-stars"></i></i></b></h1>
           <h1 className="w3-display-middle w3-jumbo w3-text-white glow w3-hide-small w3-hide-medium"><b><i><i className="bi bi-stars"></i>Cleaning Services<i className="bi bi-stars"></i></i></b></h1>
-          <h1 className="w3-display-bottommiddle w3-container w3-xxlarge w3-text-white glow w3-hide-small w3-hide-medium"><b><i><i className="bi bi-stars"></i>"We Will Leave Your Home Sparkling Clean!"<i className="bi bi-stars"></i></i></b></h1>
+          <h1 className="w3-display-bottommiddle w3-container w3-xlarge w3-text-purple glow w3-hide-small w3-hide-medium"><b><i><i className="bi bi-stars"></i>"We Will Leave Your Home Sparkling Clean!"<i className="bi bi-stars"></i></i></b></h1>
         </div>
 
          {/* <!-- Routes to each page on website --> */}
